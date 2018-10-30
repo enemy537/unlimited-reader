@@ -1,0 +1,20 @@
+{
+  "name": "Unlimited News",
+  "description": "A popup login blocker",
+  "version": "1.0",
+  "description": "a login blocker",
+  "manifest_version": 2,
+  "browser_action": {
+     "default_icon": "key-icon.png",
+     "default_title": "Unlimited News is running!"
+   },
+
+   "content_scripts": [
+     {
+       "matches":[
+         "*://exame.abril.com.br/*"
+       ],
+       "js": ["content.js"]
+     }
+   ]
+}
