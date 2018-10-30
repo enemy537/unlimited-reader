@@ -1,5 +1,5 @@
 # unlimited-reader
-A Chrome extension for newspaper login blocker 
+A newspaper login blocker for Chrome browser
 
 ### How to use:
 
